@@ -47,9 +47,10 @@
     
 
         .portrait {
-            background: url('../dist/img/portrait_small.jpg');
-            width: 150px;
-            height: 150px;
+            will-change: none;
+            // background: url('../dist/img/portrait_small.jpg');
+            // width: 150px;
+            // height: 150px;
         }
     }
 
