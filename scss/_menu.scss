@@ -86,12 +86,18 @@
     &.show {
       // Slide in from bottom
       transform: translate3d(0, 0, 0);
+      object-fit: cover;
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url('../img/portrait.jpg');
+      width: 180px;
+      height: 200px;
+      background: url('../img/Profile_Pic_Bright_test.jpg');
+
+      // width: 250px;
+      // height: 250px;
+      // background: url('../img/Profile_Pic_Bright_test_250x250.jpg');
+
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

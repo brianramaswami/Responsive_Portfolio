@@ -31,7 +31,8 @@ h3 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5); 
+        font-size: 1.3rem;
+        background: rgba(lighten($primary-color, 2), 0); 
     }
 }
 
@@ -39,6 +40,22 @@ h3 {
 a {
     color: #fff;
     text-decoration: none;
+}
+
+i {
+    &.fa-github{
+        // color: rgb(5, 5, 5)
+        &:hover {
+            color: rgb(5, 5, 5);
+        }
+    }
+
+    &.fa-linkedin {
+        // color: rgb(3, 137, 209)
+        &:hover {
+            color: rgb(3, 137, 209)
+        }
+    }
 }
 
 header{
@@ -84,7 +101,7 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
-    'bioimage bio bio'
+    'bioimage bio resume'
     'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr);
 
@@ -97,7 +114,18 @@ main {
     }
 
     .bio {
+        margin-top: 1rem;
         grid-area: bio;
+    }
+
+    .resume {
+        grid-area: resume;
+
+        .resume_image {
+            margin-top: 1rem;
+            width: 200px;
+            border: $secondary-color 2px solid;            
+        }
     }
 
     .job-1 {
