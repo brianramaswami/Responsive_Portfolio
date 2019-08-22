@@ -32,6 +32,7 @@ function toggleMenu() {
   }
 }
 
+
 // creating a pop-up for user
 let rps = document.getElementById("rpsDiv");
 rps.onclick = function(e){

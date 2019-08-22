@@ -47,10 +47,9 @@
     
 
         .portrait {
-            // will-change: none;
-            // background: url('../dist/img/portrait_small.jpg');
+            background: $small-portrait;
             width: 150px;
-            height: 150px;
+            height: 167px;
         }
     }
 
@@ -80,13 +79,21 @@
   
       .lg-heading {
         margin-top:1rem;
-        font-size: 5rem;
+        font-size: 4rem;
       }
     }
   
     .projects {
       grid-template-columns: 1fr;
     }
+  }
+
+  @include mediaXSm {
+    main {
+        .lg-heading {
+          font-size: 2.5rem;
+        }
+      }
   }
 
 
