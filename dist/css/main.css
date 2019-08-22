@@ -284,7 +284,7 @@ main {
     .menu-branding .portrait {
       background: url("../img/Profile_Pic_Bright_small_cur.jpg");
       width: 150px;
-      height: 167px; }
+      height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'resume' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
