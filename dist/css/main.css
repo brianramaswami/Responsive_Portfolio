@@ -291,7 +291,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 584px) {
   main {
     padding: 2rem; }
     main #home h1 {
@@ -302,7 +302,7 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 372px) {
+@media screen and (max-width: 400px) {
   main .lg-heading {
     font-size: 2.5rem; }
   main .message {
