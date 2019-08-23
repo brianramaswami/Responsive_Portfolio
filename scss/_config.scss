@@ -45,7 +45,7 @@ $small-portrait: url('../img/Profile_Pic_Bright_small_cur.jpg');
 
 // Media Query Mixins
 @mixin  mediaXSm {
-    @media screen and (max-width: 371px){
+    @media screen and (max-width: 372px){
         @content;
     }    
 }
